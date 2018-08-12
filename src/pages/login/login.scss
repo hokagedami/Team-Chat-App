@@ -1,0 +1,56 @@
+page-login {
+    text-align: center;
+    p {
+        color: color($colors, text);
+        font-size: 10px;
+    }
+    .logo {
+        width: 30%;
+        height: 10%;
+    }
+    ion-toolbar {
+        text-align: center;
+    }
+    .toolbar-md {
+        min-height: 0px; 
+    }
+    .footer-bg {
+        //background-color: rgb(35, 35, 216);
+        color: white;
+        font-size: 10px;
+    }
+    .header-bg {
+        background-color: rgb(53, 76, 209);
+    }
+    ion-content {
+        margin-top: 2em;
+        background-image: '/src/assets/imgs/sm.jpg';
+    }
+    .scroll-content {
+        padding-top: 5em !important;
+    }
+    .item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner,
+    .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+        background-color: transparent;
+        border-bottom-color: transparent;
+        box-shadow: inset 0 -1px 0 0 transparent;
+    }
+    .forgot-password {
+        font-size: 11px;
+        float: right;
+        text-transform: lowercase;
+    }
+    ion-item {
+        background-color: rgba(95, 94, 74, 0.6274) !important;
+        background-image: '/src/assets/imgs/sm.jpg';
+    }
+    .button-outline-md-secondary {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    /* ion-content {
+        background-image: url(../assets/imgs/sm.jpg);
+        //background-color: skyblue;
+        //background: blue;
+    } */
+}

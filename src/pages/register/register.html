@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-toolbar color="chatLight">
+        <h2>Register</h2>
+    </ion-toolbar>
+</ion-header>
+<ion-content padding>
+    <ion-item>
+        <ion-label color="danger">Email</ion-label>
+        <ion-input type="email" [(ngModel)]="reg.email" name="email" required></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label color="danger">Password</ion-label>
+        <ion-input type="password" [(ngModel)]="reg.password" name="pword" required></ion-input>
+    </ion-item>
+    <p>Register with a valid email address</p>
+    <button ion-button block outline color="text" (click)="registerAccount()">Register</button>
+    <button ion-button block outline color="text" (click)="goToLogin()">Back To Login</button>
+</ion-content>
+<ion-footer>
+    <ion-toolbar color="chatLight">
+        <ion-title class="footer-bg">
+            <h6>
+                Avante-cs &copy; 2018
+            </h6>
+        </ion-title>
+    </ion-toolbar>
+</ion-footer>

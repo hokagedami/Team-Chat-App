@@ -1,12 +1,4 @@
-A brief read me about the arm project
-
-
-<p align="center">
-  <img src="https://moloyal.com/img/Screenshot_1.png" style="max-width: 30%  !important"/>
-  <img src="https://moloyal.com/img/Screenshot_2.png" style="max-width: 30%  !important"/>
-  <img src="https://moloyal.com/img/Screenshot_3.png" style="max-width: 30%  !important"/>
-  <img src="https://moloyal.com/img/Screenshot_4.png" style="max-width: 30%  !important"/>
-</p>
+A Team Chat App
 
 Project Was developed using hybrid technology, dependencies include 
 

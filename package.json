@@ -1,5 +1,5 @@
 {
-    "name": "avante_tc",
+    "name": "teamChat",
     "version": "0.0.1",
     "author": "Codekage",
     "homepage": "http://ionicframework.com/",
@@ -61,7 +61,7 @@
                 "FCM_VERSION": "11.6.2"
             },
             "cordova-plugin-app-name": {
-                "APP_NAME": "Avante TeamChat"
+                "APP_NAME": "TeamChat"
             }
         },
         "platforms": [
